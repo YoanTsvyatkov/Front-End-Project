@@ -1,0 +1,279 @@
+.container{
+    width: 80%;
+    height: 100px;
+    margin:auto;
+    overflow: hidden;
+}
+
+body
+{
+    font-size: 15;
+    margin:0;
+    padding:0;
+    background-color: #fff;
+    font-family:sans-serif;
+    box-sizing:border-box;  
+}
+
+header{
+    background: #35424a;
+    padding-top: 30px;
+    margin: auto;
+    overflow: hidden;
+    border-bottom: #DC143C solid 1px;
+}
+
+
+#page-container{
+    position: relative;
+    min-height: 100vh;
+}
+
+.navigation{
+    position: relative;
+    width: 20%;
+    left: 5%;   
+    bottom: 28%;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.article .bar{
+    min-width: 10%;
+    height: 10px;   
+    border: 2px solid #000;
+    margin: 6px 6px 50px 6px;
+    cursor: pointer;
+}
+
+.bar:hover{
+    background: #35424a;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.container h1{
+    color: #f4f4f4;
+    margin-bottom: 10px;
+}
+
+header span{
+    color: #DC143C;
+}
+
+section h2{
+    text-align: center;
+}
+
+.container a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+header a:hover{
+  color: #DC143C;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header ul{
+    float: right;
+}
+
+header ul li{
+    float: left;
+    margin: 5px
+}
+
+.article {
+    overflow: auto;
+}
+
+table{
+    width: 40%;
+}
+
+#slide-container{
+    position: relative;
+    bottom: 20px;
+    right: 10;
+} 
+
+#slide-container h2{
+    padding-right: 10px;
+}   
+
+th{
+    padding-bottom: 30px;
+    text-align: left;
+    font-size: 20px;
+}
+
+#content h3{
+    font-size: 35px;
+    margin-left:  10px;
+}
+
+#content h4{
+    margin-top: 30px;
+    font-size: 20px;    
+}
+
+#content{
+    padding-bottom: 2.5rem;
+}
+
+#table-text{
+    color: #696969;
+}
+
+td{
+    border-bottom   : 1px solid #ddd;
+    margin-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    font-size: 20px;
+}
+
+table{
+    width: 40%;
+}
+
+img{
+    float: left;
+    margin-right: 100px;
+    width: 40%;
+    margin-bottom: 30px;
+    height: auto;
+}
+
+#buy-button{
+   margin-top: 30px;
+   margin-bottom: 20px;
+   border-radius: 80%;
+   width: 120px;
+   height: 70px;
+   font-weight: bold;
+   font-size: medium;
+   border-color: #000;
+   border-style: solid;
+   background-color: #ffffff;
+   text-align: center;
+}
+
+#image-container{
+    position: relative;
+    width: 100%;
+}
+
+div#footer {
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;  
+    padding: 10px;
+    color: white;
+    background-color: black;
+  }
+  
+div.article {
+    margin: 5px;
+    padding: 10px;
+}
+
+/* Conract Form Start */
+.contact__text{
+    width: 50%;
+    margin:auto auto 50px auto;
+
+}
+
+.container-contact{
+    text-align: center;
+}
+
+/* Form grid */
+.form-grid{
+    padding: 10px ;
+}
+
+.form-grid li{
+    display: block;
+    padding: 10px 0;
+    margin-right: 30px;
+}
+.form-grid li label{
+    display: block;
+    padding: 0 0 5px 0;
+    font-size: 14px;
+}
+.form-grid li input,
+.form-grid li select,
+.form-grid li textarea{
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-grid li textarea{
+    min-height: 60px;
+    max-height: 90px;
+    padding: 10px;
+}
+
+.form-grid .btn{
+    margin: 0;
+    font-size: 16px;
+    border-color: #ccc;
+}
+
+.contact__text__list_item{
+    text-align: left;
+    margin-bottom: 3px;
+}
+.contact__text__list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+   
+.btn{
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 40px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    color: #000;
+    font: 300 18px/1.2 'Raleway', sans-serif;
+    text-decoration: none;
+    transition: all 250ms ease-in-out;
+}
+
+#contact_h{
+    font-weight: 300;
+    font-size: 38px;
+    margin: 30px 0px 0px 0px;
+    line-height: 120%;
+    font-family: 'Open sans', 'sans-serif';
+}
+
+/* Conract Form End */
